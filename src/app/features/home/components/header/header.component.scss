@@ -1,0 +1,59 @@
+.nav {
+    width: 95vw ;   
+    height: 90px;
+    background: #da2820;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 10px 40px;
+    top: 0;
+
+
+    .nav__logo {
+        width: 30%;
+
+        img {
+            margin: 10px;
+            width: 95px;
+
+            &:hover {
+                cursor: pointer; 
+            }
+        }        
+    }   
+
+    .nav__logoLetter {
+        display: flex;
+        width: 40%;
+        justify-content: center;
+
+        img {
+            width: 200px;
+
+            &:hover {
+                cursor: pointer; 
+            }
+        }
+    }
+
+    .nav__menu {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;       
+
+        p {
+            color: whitesmoke;
+            font-weight: bold;
+            font-size: 18px;           
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    
+}

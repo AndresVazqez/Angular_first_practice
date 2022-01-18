@@ -1,0 +1,24 @@
+.gallery {
+    width: 90vw;
+    margin: 150px auto;
+    
+    h1 {
+        text-align: center;        
+        padding: 15px;
+        margin-bottom: 50px;
+    }     
+
+    .gallery-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img {
+            width: 380px;
+            height: 550px;
+            margin: 20px;
+        }
+
+    }
+
+    
+}

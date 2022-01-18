@@ -1,0 +1,26 @@
+.main {
+    display: flex;  
+    justify-content: space-between;    
+    margin: 40px;   
+    overflow-x: scroll;   
+
+    
+    &::-webkit-scrollbar {
+        height: 6px;                
+    }
+
+    &::-webkit-scrollbar-thumb {
+        height: 5px;                       
+        background: lightgray;
+        border-radius: 50px;
+
+        &:hover {
+            background: rgb(182, 182, 182);
+        }
+
+        &:active {
+            background: rgb(121, 120, 120);
+        }
+    }            
+       
+}
