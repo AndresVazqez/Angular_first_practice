@@ -8,8 +8,8 @@ import { Header } from '../../models/home';
 })
 export class HeaderComponent implements OnInit {
 
-  public header: Header;
-
+   public header: Header; 
+  
   constructor() { 
     this.header = {
       img: {

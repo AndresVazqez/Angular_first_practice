@@ -9,7 +9,7 @@ import { Hero } from '../../models/home';
 })
 export class HeroComponent implements OnInit {
   
-  public hero: Hero;
+  public hero: Hero;  
 
   constructor() {
     

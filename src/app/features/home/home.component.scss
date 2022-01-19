@@ -1,0 +1,33 @@
+
+.darkMode {
+    
+    background: rgb(32, 32, 32);
+    color: white;
+    
+}
+
+.lightMode {
+    background: white;
+}
+
+button {
+    background:rgb(32, 32, 32);
+    color: whitesmoke;
+    padding: 10px;
+    border: none; 
+    position: fixed;
+    top: 40px;
+    right: 150px;
+    
+
+    &:hover {
+        background:rgb(58, 58, 58)            
+    }
+    
+    &:active {
+        background:rgb(44, 44, 44); 
+    }
+}
+
+
+    

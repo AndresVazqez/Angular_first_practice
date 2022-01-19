@@ -1,13 +1,16 @@
 .hero {
     display: flex;
     margin: 40px auto;
-    margin-top: 250px;
+    margin-top: 90px;
+    padding-top: 100px;
+    
 
     .hero-title {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 40px;
+        
 
         h3 {
             text-align: center;
@@ -24,5 +27,6 @@
     img {
         width: 60vw;
         min-width: 500px;
+        box-shadow: 0px 0px 7px 2px rgb(41, 40, 40); 
     }
 }
