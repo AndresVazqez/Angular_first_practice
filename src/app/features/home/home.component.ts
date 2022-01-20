@@ -9,13 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   public darkMode : boolean = true;
-  public changeMode = () => {   
-
-    if (this.darkMode == false) {
-      this.darkMode = true;
-    }  else {      
-      this.darkMode = false;
-    }      
+  public changeMode = () => {
+    
+    !this.darkMode ? this.darkMode = true : this.darkMode = false;
+         
   }
 
 
